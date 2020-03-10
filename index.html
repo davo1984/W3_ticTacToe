@@ -17,17 +17,28 @@
 
 <body>
 
-        <div id="aboveBoard" class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="mx-5 px-3">Tic Tac Toe</h1>
-                </div>
+    <div id="aboveBoard" class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="m-2 p-2">Tic Tac Toe</h1>
             </div>
         </div>
 
-    <div id="gameBoard" class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <button id="whichPlayer" type="button" class="btn btn-success m-1 p-1">Player X</button>
+            </div>
+        </div>
 
     </div>
+
+
+    <!-- <div class=""> -->
+        <div id="gameBoard" class="container offset-4">
+
+        </div>
+
+    <!-- </div> -->
 
     <div id="belowBoard" class="container">
         <div class="row">
@@ -36,9 +47,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <button type="button" onclick="resetGame()" 
-                    class="btn btn-primary border border-rounded border-dark px-5 mx-5">Restart Game</button>
+                    class="btn btn-success border border-rounded border-dark px-5 mx-5">Restart Game</button>
             </div>
         </div>
     </div>
