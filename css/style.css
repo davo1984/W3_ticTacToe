@@ -4,4 +4,9 @@
 
 .body {
     background-color: lightblue;
+    background-image: ./../img/joseki.jpg_large;
+}
+
+.col-2 {
+    font-size: 4em;
 }
